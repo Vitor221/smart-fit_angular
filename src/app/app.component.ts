@@ -7,7 +7,12 @@ import { FormsComponent } from './components/forms/forms.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, FormsComponent],
+  imports: [
+    CommonModule, 
+    RouterOutlet,
+    HeaderComponent, 
+    FormsComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
